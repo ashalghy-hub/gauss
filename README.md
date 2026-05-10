@@ -29,8 +29,8 @@
 环境要求：支持 AVX2 指令集的 x86 CPU，以及支持 OpenMP 的 GCC 编译器。
 在 Linux 或 Windows 终端下，推荐使用以下命令进行编译和运行：
 
-测试 1：纯串行与自动向量化对比
 ```bash
+测试 1：纯串行与自动向量化对比
 # 纯串行编译
 g++ lu_auto.cpp -O0 -o run_baseline
 ./run_baseline
